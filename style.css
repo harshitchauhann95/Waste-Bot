@@ -1,0 +1,199 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #4ade80, #60a5fa);
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navigation Bar */
+  .navbar {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4ade80;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #4ade80;
+  }
+  
+  /* Home Section */
+  .home-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .home-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .home-section p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .btn-upload, .btn-describe {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-upload {
+    background: #fbbf24;
+    color: white;
+  }
+  
+  .btn-describe {
+    background: #60a5fa;
+    color: white;
+  }
+  
+  .btn-upload:hover {
+    background: #f59e0b;
+  }
+  
+  .btn-describe:hover {
+    background: #3b82f6;
+  }
+  
+  .stats {
+    margin-top: 40px;
+  }
+  
+  .highlight {
+    color: #fbbf24;
+    font-weight: bold;
+  }
+  
+  /* Waste Classification Section */
+  .classify-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    color: #333;
+  }
+  
+  .upload-box {
+    border: 2px dashed #4ade80;
+    padding: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .result-box {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #4ade80;
+    color: white;
+  }
+  
+  .result-box.hidden {
+    display: none;
+  }
+  
+  .category {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .instructions {
+    margin-top: 10px;
+  }
+  
+  .points {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Leaderboard Section */
+  .leaderboard-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #60a5fa, #4ade80);
+    color: white;
+  }
+  
+  .leaderboard {
+    background: white;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .user {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user:last-child {
+    border-bottom: none;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    color: #333;
+  }

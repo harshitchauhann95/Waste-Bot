@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WasteBot - AI-Powered Waste Segregation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">WasteBot ♻️</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#classify">Classify</a></li>
+        <li><a href="#leaderboard">Leaderboard</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="container">
+      <h1>Welcome to WasteBot!</h1>
+      <p>Your AI-powered waste segregation assistant.</p>
+      <div class="actions">
+        <button class="btn-upload">📸 Upload Image</button>
+        <button class="btn-describe">🗣️ Describe Waste</button>
+      </div>
+      <div class="stats">
+        <p>You’ve recycled <span class="highlight">10</span> items this week!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Waste Classification Section -->
+  <section id="classify" class="classify-section">
+    <div class="container">
+      <h2>Classify Your Waste</h2>
+      <div class="upload-box">
+        <p>Drag & Drop or Tap to Upload</p>
+      </div>
+      <button class="btn-upload">📸 Upload Image</button>
+      <div id="result" class="result-box hidden">
+        <p class="category">Recyclable! ♻️</p>
+        <p class="instructions">Place in blue bin for recycling.</p>
+        <p class="points">You earned <span class="highlight">10</span> points!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Leaderboard Section -->
+  <section id="leaderboard" class="leaderboard-section">
+    <div class="container">
+      <h2>Leaderboard 🏆</h2>
+      <div class="leaderboard">
+        <div class="user">
+          <p>Alice</p>
+          <p>150 points</p>
+        </div>
+        <div class="user">
+          <p>Bob</p>
+          <p>120 points</p>
+        </div>
+        <div class="user">
+          <p>Charlie</p>
+          <p>100 points</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2023 WasteBot. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
